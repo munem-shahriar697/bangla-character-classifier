@@ -63,6 +63,9 @@ body {
     color: #a8dadc;
 }
 
+.canvas {
+    padding: 20px;
+}
 
 canvas {
     position: absolute;
@@ -74,6 +77,14 @@ canvas {
 .glowing-font {
     text-shadow: 0 0 2px #457b9d, 0 0 4px #457b9d, 0 0 6px #457b9d, 0 0 8px #457b9d, 0 0 12px #457b9d;
     color: #457b9d;
+}
+
+.glowing-font p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
 }
 
 .glowing-font-1 {
