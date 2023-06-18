@@ -1,0 +1,136 @@
+/*
+font-family: 'Cairo', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Titillium Web', sans-serif;
+*/
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: auto;
+}
+
+body {
+    box-sizing: border-box;
+    background-image: url(Images/background.png);
+    background-size: 115%;
+    background-position: bottom;
+    background-color: #457b9d;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+#heading_text {
+    margin-left: auto;
+    margin-right: auto;
+    color: #f1faee;
+    background-color: #1d3557;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+    padding: 80px;
+}
+
+#credit {
+    width: auto;
+    height: 50px;
+    font-size: 17px;
+    padding: 8px 0px;
+    display: inline-block;
+}
+
+#navbar {
+    color: #457b9d;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+
+.footer p {
+    padding: 0px;
+    margin: auto;
+    font-size: small;
+    color: #a8dadc;
+}
+
+
+canvas {
+    position: absolute;
+    top: 283px;
+    left: 580px;
+    border: 2px solid #e63946;
+}
+
+.glowing-font {
+    text-shadow: 0 0 2px #457b9d, 0 0 4px #457b9d, 0 0 6px #457b9d, 0 0 8px #457b9d, 0 0 12px #457b9d;
+    color: #457b9d;
+}
+
+.glowing-font-1 {
+    text-shadow: 0 0 2px #008055, 0 0 4px #008055, 0 0 5px #008055, 0 0 6px #008055, 0 0 10px #008055;
+    color: #dbf1ff;
+}
+
+#button_predict {
+    position: absolute;
+    top: 590px;
+    left: 603px;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border: 2px solid #1d3557;
+    border-radius: 10px;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    color: #a8dadc;
+    background-color: #1d3557;
+    font-weight: 700;
+}
+
+#button_clear {
+    position: absolute;
+    top: 590px;
+    left: 737px;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border: 2px solid #1d3557;
+    border-radius: 10px;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    color: #a8dadc;
+    background-color: #1d3557;
+    font-weight: 700;
+}
+
+#predictions {
+    position: absolute;
+    top: 335px;
+    left: 1000px;
+    color: #f1faee;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#prediction_heading {
+    font-size: 50px;
+    line-height: 60px;
+}
+
+#result {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+#confidence {
+    font-size: 20px;
+}
